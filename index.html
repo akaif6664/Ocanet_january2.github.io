@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-do List</title>
+
+    <link href="styling.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--    Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="todo-app">
+            <h2>To-Do List <img src="images/check-list.png" alt="To do list icons created by Freepik - Flaticon</a>"></h2>
+            <div class="rowforinput">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button style="border-radius: 40px;" onclick="addTask()">Add</button>
+            </div>
+            <p id="alert-message">Please enter any Text!</p>
+            <ul id="list-container">
+                
+            </ul>
+        </div>
+        <div class="container">
+            <div class="footer">
+                <p>Developed by Abdul Kaif</p>
+                <p>Batch Jan, 2024. OctaNet Services pvt. ltd.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+</body></html>
